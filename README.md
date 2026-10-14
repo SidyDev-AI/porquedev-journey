@@ -35,7 +35,7 @@
 Use:
 
 ```text
-porquedev-roadmap
+porquedev-journey
 ```
 
 O nome é curto, legível, fácil de usar em comandos e deixa claro que o repositório contém sua trilha de aprendizado. Evite espaços, acentos e letras maiúsculas em nomes de pastas de projetos.
@@ -45,8 +45,8 @@ O nome é curto, legível, fácil de usar em comandos e deixa claro que o reposi
 No terminal, execute:
 
 ```bash
-mkdir porquedev-roadmap
-cd porquedev-roadmap
+mkdir porquedev-journey
+cd porquedev-journey
 git init
 ```
 
@@ -57,7 +57,7 @@ Crie este arquivo com o nome `README.md` na raiz da pasta. Ele será o documento
 ### Estrutura sugerida
 
 ```text
-porquedev-roadmap/
+porquedev-journey/
 ├── README.md
 ├── .gitignore
 ├── diario/
@@ -106,7 +106,7 @@ Você não precisa criar todas essas pastas no primeiro dia. Crie cada pasta qua
 - [ ] Criar páginas web com HTML semântico e CSS responsivo.
 - [ ] Manipular o DOM e responder a eventos com JavaScript.
 - [ ] Consumir uma API e lidar com respostas assíncronas.
-- [ ] Criar uma API básica com Node.js.
+- [ ] Criar uma API básica com Python.
 - [ ] Modelar dados e executar consultas SQL.
 - [ ] Integrar frontend, backend e banco de dados em um projeto.
 - [ ] Usar Git para registrar mudanças e GitHub para publicar repositórios.
@@ -170,7 +170,8 @@ Se preferir descansar um dia por semana, use seis dias de duas horas (12 horas s
 ### Ferramentas principais
 
 - **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
-- **JavaScript e backend:** [Node.js — site oficial](https://nodejs.org/)
+- **JavaScript (front-end):** [Node.js — site oficial](https://nodejs.org/)
+- **Python (back-end):** [Python — site oficial](https://www.python.org/)
 - **Controle de versão:** [Git](https://git-scm.com/)
 - **Hospedagem de repositórios:** [GitHub](https://github.com/)
 - **Documentação web:** [MDN Web Docs em português](https://developer.mozilla.org/pt-BR/)
@@ -180,11 +181,12 @@ Use versões estáveis/LTS quando disponíveis e siga as instruções oficiais d
 
 ### Verificar as instalações
 
-Depois de instalar Node.js e Git, abra um terminal e execute:
+Depois de instalar Node.js, Python e Git, abra um terminal e execute:
 
 ```bash
 node --version
 npm --version
+python --version
 git --version
 ```
 
@@ -306,7 +308,7 @@ O que ainda não funciona ou não foi implementado?
 
 ## 6. Plano completo de 24 semanas
 
-O plano usa JavaScript como linguagem principal. O objetivo é reduzir a troca de ferramentas no início e permitir que a mesma linguagem seja usada no navegador e no backend.
+O plano usa JavaScript como linguagem principal.
 
 ### Fase 1 — Fundamentos de programação (semanas 1 a 4)
 
@@ -922,7 +924,7 @@ Use mensagens que descrevam a mudança. Não precisa adotar um padrão rígido d
 
 ### Publicar no GitHub
 
-1. Crie um repositório vazio no GitHub chamado `porquedev-roadmap`.
+1. Crie um repositório vazio no GitHub chamado `porquedev-journey`.
 2. Siga as instruções que o próprio GitHub mostrar para conectar seu repositório local.
 3. Configure autenticação conforme a documentação do GitHub.
 4. Confira se o branch local e o remoto estão corretos.
@@ -1044,16 +1046,16 @@ Se algum item essencial ainda estiver difícil, revise o conteúdo ou faça um p
 Marque as caixas conforme concluir cada etapa. Este checklist pode ser editado diretamente no Markdown.
 
 ### Preparação
-- [ ] Criar a pasta `porquedev-roadmap`.
-- [ ] Criar o `README.md`.
-- [ ] Instalar o editor.
-- [ ] Instalar Node.js.
-- [ ] Instalar Git.
-- [ ] Verificar as versões no terminal.
-- [ ] Configurar nome e e-mail do Git.
-- [ ] Criar `.gitignore`.
-- [ ] Fazer o primeiro commit.
-- [ ] Criar o repositório remoto.
+- [x] Criar a pasta `porquedev-journey`.
+- [x] Criar o `README.md`.
+- [x] Instalar o editor.
+- [x] Instalar Node.js.
+- [x] Instalar Git.
+- [x] Verificar as versões no terminal.
+- [x] Configurar nome e e-mail do Git.
+- [x] Criar `.gitignore`.
+- [x] Fazer o primeiro commit.
+- [x] Criar o repositório remoto.
 
 ### Fundamentos — semanas 1 a 4
 - [ ] Semana 1: lógica e calculadora.
@@ -1193,4 +1195,4 @@ Meu objetivo não é apenas terminar um cronograma. Quero aprender a pensar, inv
 - Projeto atual: `A definir`
 - Próxima tarefa: `Configurar o ambiente e começar a Semana 1`
 
-> **Primeiro passo de hoje:** crie a pasta `porquedev-roadmap`, salve este arquivo como `README.md`, configure Git e comece pelos exercícios de variáveis e operadores. Não precisa preparar tudo perfeitamente antes de escrever a primeira linha de código.
+> **Primeiro passo de hoje:** crie a pasta `porquedev-journey`, salve este arquivo como `README.md`, configure Git e comece pelos exercícios de variáveis e operadores. Não precisa preparar tudo perfeitamente antes de escrever a primeira linha de código.
